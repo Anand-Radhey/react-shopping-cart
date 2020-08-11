@@ -123,44 +123,6 @@ export default class Cart extends Component {
                     </form>
                   </div>
                 </Fade>
-                <div className="cart">
-                  <form onSubmit={this.createOrder}>
-                    <ul className="form-container">
-                      <li>
-                        <label>Email</label>
-                        <input
-                          name="email"
-                          type="email"
-                          required
-                          onChange={this.handleInput}
-                        ></input>
-                      </li>
-                      <li>
-                        <label>Name</label>
-                        <input
-                          name="name"
-                          type="text"
-                          required
-                          onChange={this.handleInput}
-                        ></input>
-                      </li>
-                      <li>
-                        <label>Address</label>
-                        <input
-                          name="address"
-                          type="text"
-                          required
-                          onChange={this.handleInput}
-                        ></input>
-                      </li>
-                      <li>
-                        <button className="button primary" type="submit">
-                          Checkout
-                        </button>
-                      </li>
-                    </ul>
-                  </form>
-                </div>
               )}
             </div>
           )}
